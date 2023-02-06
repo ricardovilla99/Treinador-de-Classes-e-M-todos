@@ -89,7 +89,7 @@ namespace Treinador_de_Classes_e_Métodos
             // ou sem o $ e fazendo concatenacao
             Console.WriteLine("A nota final do aluno " + aluno1.Nome + " é " + aluno1.NotaFinal);
 
-            // aqui pega uma variavel de a até d e usa o enum Qualidades para atribuir cada elemento do enum
+            // aqui pega variaveis de a até d e usa o enum Qualidades para atribuir cada elemento do enum
             Qualidades a = Qualidades.Inteligente;
             Qualidades b = Qualidades.Incompetente;
             Qualidades c = Qualidades.Capaz;
@@ -134,7 +134,7 @@ namespace Treinador_de_Classes_e_Métodos
             Console.WriteLine($"A área do circulo é: {areaCirculo2}");
 
             // aqui usa o enum Meses declarado lá no inicio
-            //mostra o indice do item do enum Meses2 (começa em 0)
+            //mostra o indice do item do enum Meses (começa em 0)
             Console.WriteLine("\nO índice do mês Fevereiro é: " + (int)Meses.Fevereiro);
 
             //mostra o elemento Fevereiro
