@@ -101,7 +101,7 @@
             get { return _notaFinal; }
         }
 
-        //metodo privado calcular final, some e divide por 4
+        //metodo calcular final, some e divide por 4
         private void CalcularFinal()
         {
             _notaFinal = (_nota1 + _nota2 + _nota3 + _nota4) / 4;
